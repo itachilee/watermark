@@ -44,7 +44,6 @@ const ImageEditor: React.FC<ImageEditorProps> = ({ image }) => {
                 canvas.width = imageRef.current.width;
                 canvas.height = imageRef.current.height;
                 context.drawImage(imageRef.current, 0, 0);
-                setInit(true)
             }
         }
     }
